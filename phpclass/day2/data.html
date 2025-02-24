@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <form method="POST" action="dataforhtml.php">
+        <p>Digite um texto:</p>
+        <input type="text" name="text" required>
+
+        <p>Digite um número:</p>
+        <input type="number" name="number" required>
+
+        <p>Digite um valor decimal:</p>
+        <input type="text" name="float" pattern="[0-9]+([.,][0-9]+)?" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
